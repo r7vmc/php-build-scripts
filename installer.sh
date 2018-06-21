@@ -320,7 +320,7 @@ else
 		set -e
 		echo "[3/3] No prebuilt PHP found, compiling PHP automatically. This might take a while."
 		echo
-		exec "./compile.sh"
+		exec "./compile.sh -g"
 	fi
 fi
 
